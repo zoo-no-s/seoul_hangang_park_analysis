@@ -1,0 +1,10 @@
+version: 2
+models:
+  - name: stg_park_master
+    description: 한강공원 주차장 마스터 정보
+    columns:
+    - name: PKLT_TYPE
+      description: 주문 식별자
+      data_tests:
+      - not_null
+      - unique

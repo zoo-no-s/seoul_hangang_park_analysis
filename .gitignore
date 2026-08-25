@@ -1,0 +1,25 @@
+# 가상환경 & Python 기본
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# 환경 변수 및 GCP 서비스 계정 키 (보안 필수)
+.env
+*.json
+
+# 데이터 파일 및 캐시
+*.csv
+*.parquet
+raw/
+data/raw/
+data/processed/
+
+# dbt 관련 생성 파일 (빌드 결과물 & 로그)
+target/
+dbt_packages/
+logs/
+.dbt/
+
+# 주피터 노트북 체크포인트
+.ipynb_checkpoints/
